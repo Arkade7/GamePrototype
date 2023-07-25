@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BubbleBehaviour : MonoBehaviour
 {
-    public float BubbleSpeed = 5;
+    public float BubbleSpeed;
     void Update()
     {
         Vector3 movement = new Vector3(BubbleSpeed,0f,0f); // Create a movement vector from input
