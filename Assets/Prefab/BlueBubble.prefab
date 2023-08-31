@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 8711418040867769972}
   - component: {fileID: 8711418040867769971}
   - component: {fileID: 8711418040867769975}
+  - component: {fileID: 4883694188821483861}
+  - component: {fileID: 6332634255144805769}
   m_Layer: 0
   m_Name: BlueBubble
   m_TagString: BlueBubble
@@ -136,4 +138,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c11578bb3583ebd4cb4a40fb824d21b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &4883694188821483861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8711418040867769955}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0503035ba7b05b64a99c51984bfb33fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   BubbleSpeed: -5
+--- !u!114 &6332634255144805769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8711418040867769955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b585291cd5e96ce4d8cea8e9586d8eb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  forwardSpeed: -5
+  amplitude: 3
+  frequency: 1
